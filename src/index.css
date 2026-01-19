@@ -1,0 +1,73 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Page background */
+body {
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  min-height: 100vh;
+}
+
+/* Center container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 40px;
+  width: 350px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.card h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Paragraph */
+.card p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Input */
+.card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* Button */
+.card button {
+  padding: 10px 15px;
+  background: #4a6cf7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #3b5be3;
+}
+
+/* Weather result */
+.card div p {
+  margin-top: 10px;
+  font-weight: bold;
+}
